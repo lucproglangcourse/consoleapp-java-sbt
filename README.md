@@ -77,24 +77,23 @@ or
 
 SBT will then prompt you to choose the specific main class you want to run.
 
-
 # Running a specific main class directly
 
 On Linux or Mac OS X:
 
-    $ sbt "runMain my.specific.Main"
+    $ sbt "runMain hw.Main"
 
 or
 
-    $ sbt "runMain my.specific.Main arg1 arg2 arg3"
+    $ sbt "runMain hw.Main arg1 arg2 arg3"
 
 On Windows:
 
-    > sbt "runMain my.specific.Main"
+    > sbt "runMain hw.Main"
 
 or
 
-    > sbt "runMain my.specific.Main arg1 arg2 arg3"
+    > sbt "runMain hw.Main arg1 arg2 arg3"
 
 # Running the Tests
 
