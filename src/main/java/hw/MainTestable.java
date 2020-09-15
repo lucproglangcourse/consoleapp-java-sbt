@@ -43,11 +43,10 @@ public class MainTestable {
 
     final Iterator<String> input = new Scanner(System.in).useDelimiter("(?U)[^\\p{Alpha}0-9']+");
 
-    final WindowMaker wm = new WindowMaker(lastNWords);
-
     // an observer instance that sends updates to the console
     final Output outputToConsole = (final Queue<String> value) -> System.out.println(value);
 
+    final WindowMaker wm = new WindowMaker(lastNWords);
     wm.slidingWindow(input, outputToConsole);
   }
 }
