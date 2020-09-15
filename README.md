@@ -1,8 +1,5 @@
 # Learning objectives
 
-* simple console app example
-* experience with Git source code management
-* building with SBT
 * stream processing (finite vs. infinite/unbounded)
 * pipes and filters architecture
 * representing streams using the Iterator design pattern
