@@ -57,7 +57,7 @@ w6
 EOF
 ```
 
-# Running the Application
+# Running the application
 
 On Linux or Mac OS X:
 
@@ -95,7 +95,7 @@ or
 
     > sbt "runMain hw.Main arg1 arg2 arg3"
 
-# Running the Tests
+# Running the tests
 
 On Linux or Mac OS X:
 
@@ -105,7 +105,7 @@ On Windows:
 
     > sbt test
 
-# Running the Application Outside SBT
+# Running the application outside SBT
 
 This allows passing command-line arguments directly:
 
