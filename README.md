@@ -107,7 +107,7 @@ On Windows:
 
 # Running the application outside SBT
 
-This allows passing command-line arguments directly:
+This avoids the performance overhead of running the application through SBT and allows passing command-line arguments directly:
 
 On Linux or Mac OS X:
 
